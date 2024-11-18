@@ -34,7 +34,6 @@ function App() {
         <div style={{ padding: '20px' }}>
             <h1>E-Commerce Shipping Estimator</h1>
 
-            {/* Seller & Product Inputs */}
             <div>
                 <label>Seller ID:</label>
                 <input value={sellerId} onChange={(e) => setSellerId(e.target.value)} />
@@ -55,13 +54,11 @@ function App() {
                 </select>
             </div>
 
-            {/* Buttons for API Calls */}
             <div>
                 <button onClick={handleNearestWarehouse}>Get Nearest Warehouse</button>
                 <button onClick={handleShippingCharge}>Calculate Shipping Charge</button>
             </div>
 
-            {/* Display API Response */}
             {responseData && (
                 <div style={{ marginTop: '20px' }}>
                     <h3>Response:</h3>
