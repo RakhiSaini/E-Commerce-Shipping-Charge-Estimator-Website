@@ -1,0 +1,6 @@
+[
+    { "id": "S-1", "name": "Nestle Seller", "location": { "lat": 10.123, "lng": 22.345 } },
+    { "id": "S-2", "name": "Rice Seller", "location": { "lat": 12.456, "lng": 28.123 } },
+    { "id": "S-3", "name": "Sugar Seller", "location": { "lat": 14.678, "lng": 30.987 } }
+]
+  

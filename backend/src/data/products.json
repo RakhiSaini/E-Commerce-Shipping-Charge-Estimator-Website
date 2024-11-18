@@ -1,0 +1,5 @@
+[
+    { "id": "P-1", "name": "Maggie 500g Packet", "weight": 0.5, "dimensions": "10cmx10cmx10cm", "sellerId": "Nestle" },
+    { "id": "P-2", "name": "Rice Bag 10Kg", "weight": 10, "dimensions": "1000cmx800cmx500cm", "sellerId": "Rice Seller" },
+    { "id": "P-3", "name": "Sugar Bag 25kg", "weight": 25, "dimensions": "1000cmx900cmx600cm", "sellerId": "Sugar Seller" }
+]  

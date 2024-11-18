@@ -3,9 +3,7 @@ const haversine = require('../utils/distanceCalculator');
 
 exports.getNearestWarehouse = async (req, res) => {
     const { sellerId } = req.query;
-    // Example logic: Fetch seller details and find nearest warehouse
-    // Assuming seller location is fetched from DB
-    const sellerLocation = { lat: 15.0, lng: 30.0 }; // Replace with actual data
+    const sellerLocation = { "lat": 12.99999, "long": 37.923273 };
     const warehouses = await Warehouse.find();
 
     const nearestWarehouse = warehouses.reduce((closest, warehouse) => {

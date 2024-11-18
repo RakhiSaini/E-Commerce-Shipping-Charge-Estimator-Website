@@ -1,0 +1,5 @@
+[
+    { "id": "Cust-123", "name": "Shree Kirana Store", "phone": "9847******", "location": { "lat": 11.232, "lng": 23.445495 } },
+    { "id": "Cust-124", "name": "Andheri Mini Mart", "phone": "9101******", "location": { "lat": 17.232, "lng": 33.445495 } }
+]
+  

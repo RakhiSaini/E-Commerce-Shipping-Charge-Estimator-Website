@@ -1,0 +1,4 @@
+[
+    { "id": "W-1", "name": "BLR_Warehouse", "location": { "lat": 12.99999, "lng": 37.923273 } },
+    { "id": "W-2", "name": "MUMB_Warehouse", "location": { "lat": 11.99999, "lng": 27.923273 } }
+]

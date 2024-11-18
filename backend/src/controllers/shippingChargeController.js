@@ -4,9 +4,8 @@ const { getTransportMode } = require('../utils/transportModes');
 
 exports.calculateShippingCharge = async (req, res) => {
     const { warehouseId, customerId, deliverySpeed } = req.query;
-    // Fetch warehouse and customer locations
-    const warehouse = { location: { lat: 12.99999, lng: 37.923273 } }; // Mock data
-    const customer = { location: { lat: 11.232, lng: 23.445495 } }; // Mock data
+    const warehouse = { location: { lat: 12.99999, long: 37.923273 } }; 
+    const customer = { location: { lat: 11.232, long: 23.445495 } }; 
 
     const distance = haversine(warehouse.location, customer.location);
     const { rate } = getTransportMode(distance);
