@@ -11,6 +11,7 @@ Features :-
 Find the nearest warehouse for a seller.
 Calculate shipping charges based on distance and delivery speed.
 
+
 Setup Instructions :-
 
 Clone the repository :
@@ -27,6 +28,7 @@ cd frontend
 npm install
 npm start
 
+
 Testing APIs :-
 
 I Use ThunderClient :
@@ -35,10 +37,12 @@ GET /api/v1/warehouse/nearest
 GET /api/v1/shipping-charge
 POST /api/v1/shipping-charge/calculate
 
+
 Technologies Used :- 
 
 Backend: Node.js, Express.js
 Frontend: React.js
+
 
 Run Project :-
 
